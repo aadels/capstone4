@@ -1,0 +1,747 @@
+#viewport{
+  z-index: 600:;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  font-family: 'Exo', sans-serif;
+  font-size: 48px;
+}
+
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+.stop-horizonal-scrolling {
+  width: 100%;
+  overflow: hidden;
+}
+html {
+  line-height: 1;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+
+a img {
+  border: none;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #e3e5e5;
+  color: #000000;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0e83a0;
+  font-weight: 600;
+}
+
+
+strong {
+  font-weight: 600;
+}
+
+
+p {
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+article {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 0;
+}
+
+article:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+ article .pic {
+  margin: 0;
+}
+
+
+@media (min-width: 1200px) {
+
+  .scene {
+    padding: 0;
+  }
+}
+@media (min-width: 960px) {
+
+  .scene article {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .scene article:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+#nav {
+  background-image: url('../images/misc/navbkgd.png') ;
+  width: 100%;
+  overflow: hidden;
+  z-index: 100;
+  vertical-align: bottom;
+}
+
+#nav::after{
+  opacity: 0.5;
+}
+
+.nav-scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  display:none;
+}
+
+.navtab{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url("../images/icons/navtab.png") 0 0 no-repeat;
+  background-size: 30px;
+  position: fixed;
+  top: 2%;
+  left: 1.5%;
+  right: 1.5%;
+  z-index: 200;
+}
+
+.navbar #upper ul{
+  width: 60%;
+  margin:0 auto;
+  padding-left: 10%;
+
+  vertical-align: top;
+}
+
+.navbar #upper ul li{
+  float: left;
+}
+
+.navbar #upper ul li a{
+  color: #fff;
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  display: inline-block;
+  padding: .25em .25em .25em .75em;
+  text-decoration: none;
+}
+
+#line{
+  border: 0;
+  height: 2px;
+  background-image: -webkit-linear-gradient(left, rgba(3,69,103,0), rgba(3,69,103,0.75), rgba(3,69,103,0));
+  background-image:    -moz-linear-gradient(left, rgba(3,69,103,0), rgba(3,69,103,0.75), rgba(3,69,103,0));
+  background-image:     -ms-linear-gradient(left, rgba(3,69,103,0), rgba(3,69,103,0.75), rgba(3,69,103,0));
+  background-image:      -o-linear-gradient(left, rgba(3,69,103,0), rgba(3,69,103,0.75), rgba(3,69,103,0));
+  width: 80%;
+}
+
+.navbar #links ul{
+  width:30%;
+  padding-left: 5%;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.navbar #links ul li{
+  float: left;
+}
+
+.navbar #links ul li a{
+  color: #fff;
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  display: inline-block;
+  padding: 0 .5em;
+  text-decoration: none;
+}
+
+.navbar .brand {
+  text-align: center;
+  width: 50%;
+  float: left;
+  padding-left: 10%
+
+
+}
+.navbar .brand img{
+  width: 50%;
+
+}
+
+.navbar #socialmedia ul{
+  width: 20%;
+  text-align: center;
+  float: right;
+  vertical-align: bottom;
+  padding-right: 5%;
+}
+.navbar #socialmedia ul li{
+  display: inline-block;
+}
+
+.navbar #socialmedia ul li a{
+  
+  padding: 0 .2em;
+}
+
+.navbar #socialmedia ul li img{
+  width: 20px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+}
+#line {
+  text-align:center;
+  margin-left:auto; 
+  margin-right:auto
+}
+
+#community {
+   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/union/fluff3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+#community:before, #community:after {
+  content: '';
+  display: table;
+}
+
+#community:after {
+  clear: both;
+}
+
+#community .lgpic, #community .smpic{
+  position: absolute;
+}
+
+#opener {
+   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/header/blue.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#opener .fadeimg .openertext{
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  z-index: 4;
+  position: absolute;
+}
+#opener .fadeimg #mainlogo {
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  z-index: 4;
+  position: absolute;
+}
+#opener .fadeimg #star {
+  width: 5%;
+  position: absolute;
+  left: 51%;
+  top: 35%;
+  z-index: 4;
+  padding: 1%;
+}
+
+#opener .fadeimg #roads {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  z-index: 3;
+}
+
+#opener .fadeimg #scroll {
+  position: absolute;
+  width: 10%;
+  bottom: 15%;
+    left: 44%;
+  height: auto;
+  z-index: 4;
+}
+
+#opener:before, #opener:after {
+  content: '';
+  display: table;
+}
+
+#opener:after {
+  clear: both;
+}
+
+#events {
+   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/events/brazilhaiti.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#events:before, #events:after {
+  content: '';
+  display: table;
+}
+
+#events:after {
+  clear: both;
+}
+
+#train{
+   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/union/oldunion.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#train:before, #train:after {
+  content: '';
+  display: table;
+}
+
+#train:after {
+  clear: both;
+}
+
+#train .fadeimg .openertext{
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  z-index: 4;
+}
+
+#unionslide{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/titlewalls/sompride.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#unionslide:before, #unionslide:after {
+  content: '';
+  display: table;
+}
+
+#unionslide:after {
+  clear: both;
+}
+
+#trainslide{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/titlewalls/traincoming.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#trainslide:before, #trainslide:after {
+  content: '';
+  display: table;
+}
+
+#trainslide:after {
+  clear: both;
+}
+
+#workslide{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/titlewalls/jobdev.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#workslide:before, #workslide:after {
+  content: '';
+  display: table;
+}
+
+#workslide:after {
+  clear: both;
+}
+
+#redevslide{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/titlewalls/cbatitle.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#redevslide:before, #redevslide:after {
+  content: '';
+  display: table;
+}
+
+#redevslide:after {
+  clear: both;
+}
+
+#business {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/union/mural2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#business:before, #business:after {
+  content: '';
+  display: table;
+}
+
+#business:after {
+  clear: both;
+}
+
+#redev {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+  background-image: url("../images/people/somerstreets.jpg");
+  background-size: cover;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+
+#redev:before, #redev:after {
+  content: '';
+  display: table;
+}
+
+#redev:after {
+  clear: both;
+}
+
+
+ #business .bldgpic1, #business .bldgpic2, #business .bldgpic3, #business .bldgpic4, #business .bwpic1, #business .bwpic2, #business .bwpic3, #business .bwpic4, 
+ #business .amespic1, #business .amespic2, #business .amespic3, #business .amespic4, #events .snowpic4, #train #traintext1, #train #traintext2, #train #traintext3, 
+ #redev #redevtext1, #redev #redevtext2, #redev #redevtext3, #business #worktext1, #business #worktext2{
+  position: absolute;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+
+#community .lgpic3, #community .lgpic2, #events .slidepic, #events .slidepic1, #events .snowpic2, #events .snowpic3, #business .colorpic1, #business .colorpic2, #business .colorpic3, 
+#business .slidepic2, #business .slidepic3, #business .slidepic4, #business .slidepic5,  #train .slidepic7, #train .slidepic8, #train .slidepic9, #train .slidepic10, #business .slidepic11, 
+#business .slidepic14, #business .slidepic15, #redev .slidepic16, #redev .slidepic17, #redev .slidepic18, #redev .slidepic21,  #redev .slidepic22, #redev .slidepic23, #business .slidepic24, #business .slidepic25{
+  position: absolute;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  bottom: 0;
+}
+#business .slidepic12, #redev .slidepic20{
+  position: absolute;
+  height: 50%;
+  width: auto;
+  overflow: hidden;
+}
+
+#business .slidepic13, #redev .slidepic19 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#train .slidepic11{
+  position: absolute;
+  float:left;
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+}
+
+img#playicon1{
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+
+img#playicon2{
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+}
+
+img#playicon3{
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+}
+
+img#playicon4{
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+}
+
+#events .text{
+    position: absolute;
+}
+ 
+#tour1, #tour2 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position:  center center; 
+  background-size: cover;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+} 
+
+#tour1:before, #tour1:after {
+  content: '';
+  display: table;
+}
+
+#tour2:before, #tour2:after {
+  content: '';
+  display: table;
+}
+
+
+#tour2:after, #tour1:after {
+  clear: both;
+}
+
+#tour2:after, #tour1:after{
+  clear: both;
+}
+
+#tour1 #map1 {  
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-style: solid;
+  border-width: medium;
+  border-color: #fff;
+} 
+ 
+#tour1 #mapvid1 {  
+  width: 50%;
+  height: 100%;
+  float: right;
+  border-style: solid;
+  border-width: medium;
+  border-color: #fff;
+  background-image: url("../images/map/uumappic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+#tour2 #map2 {  
+  width: 50%;
+  height: 100%;
+  float: right;
+  border-style: solid;
+  border-width: medium;
+  border-color: #fff;
+}  
+
+#tour2 #mapvid2 {  
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-style: solid;
+  border-width: medium;
+  border-color: #fff;
+  background-image: url("../images/map/sbdmappic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Somerville Union</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Exo">
+  <link type="image/x-icon" rel="shortcut icon" href="images/icons/favicon.ico">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <nav id="nav">
+     <div class="navbar">
+        <div id="upper">
+          <ul>
+            <li><a class="icon info" href="#opener"><span>home</span></a></li>
+            <li><a class="icon community" href="#unionvidplayer"><span>union square</span></a></li>
+            <li><a class="icon business" href="#trainvidplayer"><span>train</span></a></li>
+            <li><a class="icon housing" href="#workvidplayer"><span>work</span></a></li>
+            <li><a class="icon events" href="#redevvidplayer"><span>change</span></a></li>
+            <li><a class="icon maps" href="#tour1"><span>tour</span></a></li>
+          </ul>
+        </div><!--upper-->
+        <hr id="line">
+        <div id="links">
+          <ul>
+            <li><a><span>contact</span></a></li>
+            <li><a><span>credits</span></a></li>
+            <li><a><span>links</span></a></li> 
+          </ul> 
+        </div> <!--links-->    
+      
+        <div class="brand">
+          <img src='images/icons/navlogo2.png' alt="logo for Somerville Union website">
+        </div><!--brand--> 
+        
+        <div id="socialmedia">
+          <ul>
+            <li><a href="https://twitter.com"><img class="icon" src="images/socialmedia/twitter.png" alt="icon for twitter" /></a></li>
+            <li><a href="http://www.facebook.com"><img class="icon" src="images/socialmedia/facebook.png" alt="icon for facebook" /></a></li>
+            <li><a href="http://www.vimeo.com"><img class="icon" src="images/socialmedia/vimeo.png" alt="icon for vimeo" /></a></li>    
+          </ul>      
+        </div><!--socialmedia--> 
+
+      </div>    
+    </nav>
+    <div class="navtab"></div>  
+
+
+
+
+  <main id="wrapper">
+    <article class="fullheight" id="opener">
+        
+      <div class="fadeimg">
+        <img id= "opener1" class="openertext" src="images/header/openertext.png" alt="text describing website theme">  
+      </div>
+      
+      <div class="fadeimg">
+        <img id= "opener2" class="openertext" src="images/header/openertext2.png" alt="text describing website theme">  
+      </div>
+      
+      <div class="fadeimg">
+        <img id= "opener3" class="openertext" src="images/header/openertext3.png" alt="text describing website theme">  
+      </div>
+      
+      <div class="fadeimg">
+        <img id= "mainlogo" class="sulogo" src="images/icons/mainlogo.png" alt="Somerville Union logo">  
+      </div>
+      
+      <div class="fadeimg">
+        <img id="star" class=".05width" src="images/icons/redstar.png" alt="image of a red star shape">
+      </div> 
+      
+      <div class="fadeimg">
+        <img id="scroll" class=".15width'" src="images/icons/scrolldown.png" alt="graphic indicating that user is to scroll down">
+      </div> 
+      
+      <div class="fadeimg">
+        <img id="roads" class="" src="images/header/outline.png" alt="map image of city streets">
+      </div>
+
+
+    </article>
+
+      <article class="fullheight" id="community">   
+      <div class="smpic">
+        <img id= "fluff" class="15width" src="images/union/fluff2.png" alt="picture of a jar of Marshmallow Fluff">  
+      </div>
+      
+      <div class="lgpic">
+          <img id= "fluffdancers" class="fullwidth" src="images/union/flufferettes.png" alt="picture of burlesque dancers">  
+      </div>
+      
+      <div class="lgpic2"> 
+        <img id="fm1" class="fullwidth" src="images/events/rocknroll.jpg" alt="picture of people at an outdoor record sale">  
+      </div>
+      
+      <div class="lgpic3"> 
+        <img id="fm2" class="fullwidth" src="images/farmersmarket/fm-usms1.jpg" alt="picture of people at a farmers' market">  
+      </div>
+        
+      </article>
+          
+      <article class="fullheight" id="events"> 
+        <div class="fullwidth"> 
+          <img id="snowday" class="slidepic1" src="images/snow/snowday3.jpg" alt="picture of people playing in the snow">  
+        </div>
+        <div class="fullwidth">
+            <img id="snowbank2" class="snowpic2" src="images/snow/snowbank2.png" alt="picture of a snowbank">  
+        </div>
+        <div class="fullwidth">
+            <img id= "snowbank1" class="snowpic3" src="images/snow/snowbank1.png" alt="picture of a snowbank">  
+        </div>
+        <div class="fullheight"> 
+          <img id="snowmonster" class="snowpic4" src="images/snow/snowmonster.png" alt="picture of a snowman">  
+        </div>
+      </article>
+      
+      <article class="fullheight" id="unionslide">
+        <div class="fullwidth"> 
+          <a href="#unionvid" class="sublime" id="unionvidplayer" data-autoresize="fit" data-settings="close-button-position:right">
+            <img src="images/icons/playimage.png" id="playicon1" width="100" height="100" alt="image of a play button, indicating that the user can play a media file" />
+          </a>
+            <video id="unionvid" width="1280" height="720" title="We love Union Square" style="display:none" data-uid="union" data-settings="uid:demo-lightbox-close-button-position; autoresize:fit;" preload="none">
+              <source src="video/usquare/usquare.mp4" data-quality="hd" />
+              <source src="video/usquare/usquare.mp4" />
+              <source src="video/usquare/usquare.webm" data-quality="hd" />
+              <source src="video/usquare/usquare.webm" />
+              <source src="video/usquare/usquare.ogv" />
+            </video>
+        </div>   
+      </article>
+     
+
+      <article class="fullheight" id="train">
+        <div class="panelpic">
+          <img id= "traintext1" class="traintext" src="images/header/traintext1.png" alt="text image">  
+        </div>       
+        
+        <div class="fullwidth"> 
+          <img id="prospectcar" class="slidepic8" src="images/train/prospectcar.jpg" alt="text image">  
+        </div>
+        
+        <div class="panelpic">
+          <img id= "traintext2" class="traintext" src="images/header/traintext2.png" alt="text image">  
+        </div> 
+        
+        <div class="fullwidth"> 
+            <img id="50sunion" class="slidepic9" src="images/train/50sunion.jpg" alt="image of Union Square from 19505">  
+        </div> 
+        
+        <div class="panelpic">
+          <img id= "traintext3" class="traintext" src="images/header/traintext3.png" alt="text image">  
+        </div> 
+        
+        <div class="fullwidth"> 
+            <img id="cornerbank" class="slidepic10" src="images/union/cornerbank.jpg" alt="image of Eastern Bank Building">  
+        </div> 
+      </article>
+    
+    <article class="fullheight" id="trainslide">
+      <div class="fullwidth"> 
+        <a href="#trainvid" class="sublime" id="trainvidplayer" data-autoresize="fit" data-settings="close-button-position:right">
+          <img src="images/icons/playimage.png" id="playicon2" width="100" height="100" alt="image of a play button, indicating that the user can play a media file" />
+        </a>
+          <video id="trainvid" width="1280" height="720" title="The train is coming" style="display:none" data-uid="union" data-settings="uid:demo-lightbox-close-button-position; autoresize:fit;" preload="none">
+            <source src="video/train/train.mp4" data-quality="hd" />
+            <source src="video/train/train.mp4" />
+            <source src="video/train/train.webm" data-quality="hd" />
+            <source src="video/train/train.webm" />
+            <source src="video/train/train.ogv" />
+          </video>
+      </div>
+    </article>
+    <article class="fullheight" id="business">
+
+      <div class="colorpic">
+        <img id="red" class="colorpic1" src="images/misc/redcolor.jpg" alt="red colored background image">  
+      </div>
+
+      <div class="fullwidth"> 
+        <img id="cafe" class="slidepic2" src="images/union/unionsquarecafe.jpg" alt="black and white image of Union Square Cafe">  
+      </div>
+
+      <div class="colorpic">
+        <img id="gold" class="colorpic2" src="images/misc/goldcolor.jpg" alt="red colored background image">  
+      </div>
+
+      <div class="panelpic">
+          <img id= "monument" class="bwpic4" src="images/union/monumentedit.jpg" alt="red colored background image">  
+      </div>
+
+      <div class="panelpic">
+          <img id= "sherman" class="bwpic3" src="images/union/shermanedit.jpg" alt="black and white image of Sherman Cafe">  
+      </div>
+
+      <div class="panelpic">
+          <img id= "horse" class="bwpic2" src="images/union/webster2edit.jpg" alt="black and white image a work horse in a shed">  
+      </div>
+
+      <div class="panelpic">
+          <img id= "webster" class="bwpic1" src="images/union/webster1edit.jpg" alt="black and white image of man working in an auto parts area">  
+      </div>
+
+      <div class="fullwidth"> 
+        <img id="ames" class="slidepic3" src="images/bldg/ames1.jpg" alt="image of Ames Business Park">  
+      </div>
+
+      <div class="panelpic">
+          <img id= "greentown" class="amespic4" src="images/bldg/greentown.jpg" alt="image of a room in Greentown Labs, Somerville, MA">  
+      </div>
+
+      <div class="panelpic">
+          <img id= "rockgym" class="amespic3" src="images/bldg/rockgymedit.jpg" alt="image of people in a rock climbing gym">  
+      </div>
+      <div class="panelpic">
+          <img id= "asylum" class="amespic2" src="images/bldg/asylum.jpg" alt="image of a woman welding">  
+      </div>
+      <div class="panelpic">
+          <img id= "aeronaut" class="amespic1" src="images/bldg/aeronaut1.jpg" alt="image from the Aeronaut Brewery, Somerville, MA">  
+      </div>
+
+      <div class="fullwidth"> 
+        <img id="mural" class="slidepic4" src="images/union/unionnight.jpg" alt="image taken at night of Union Square, Somerville, MA">  
+      </div>
+      
+      <div class="fullwidth"> 
+        <img id="eyemural" class="slidepic5" src="images/murals/eyemural.jpg" alt="image of mural from Somerville, MA">  
+      </div>
+
+      <div class="panelpic">
+          <img id= "angelica" class="bldgpic4" src="images/bldg/angelica.jpg" alt="image of Angelica Benatti of Master Printing, Somerville, MA">  
+      </div>
+
+      <div class="panelpic">
+          <img id= "ebi" class="bldgpic3" src="images/bldg/ebi.JPG" alt="image of the exterior of Ebi Sushi, Somerville, MA">  
+      </div>
+      
+      <div class="panelpic">
+          <img id= "donut" class="bldgpic2" src="images/bldg/donut.jpg" alt="image of the owner of Union Square Donut, Somerville, MA">  
+      </div>
+      
+      <div class="panelpic">
+          <img id= "crossfit" class="bldgpic1" src="images/bldg/crossfit.jpg" alt="image of a mural at Crossfit Somerville, Somerville, MA">  
+      </div>       
+      
+      <div class="fullwidth"> 
+          <img id="elegant1" class="slidepic11" src="images/buildings/elegant1.jpg" alt="image of building at 31 Union Square, Somerville, MA">  
+      </div>
+      
+      <div class="fullwidth"> 
+          <img id="outofbiz" class="slidepic12" src="images/buildings/outofbiz.png" alt="image of and out of business sign">  
+      </div>
+      
+      <div class="fullwidth"> 
+          <img id="living" class="slidepic13" src="images/buildings/livingwell.jpg" alt="image of a sign for Living Well, a business in Somerville, MA">  
+      </div>
+      
+      <div class="fullwidth"> 
+        <img id="glxjobs" class="slidepic14" src="images/change/glxjobs.jpg" alt="image of demonstrators holding a banner">  
+      </div>   
+      
+      <div class="fullwidth"> 
+        <img id="machucorner" class="slidepic24" src="images/buildings/machucorner.jpg" alt="image of a block of businesses in Unon Square, Somerville">  
+      </div>
+      
+      <div class="panelpic">
+        <img id= "worktext1" class="worktext" src="images/header/worktext1.png" alt="text image">  
+      </div> 
+      
+      <div class="fullwidth"> 
+        <img id="meatmarket" class="slidepic25" src="images/buildings/meatmarket.jpg" alt="image of a meat market in Union Square, Somerville"> 
+      </div>  
+
+      <div class="panelpic">
+        <img id= "worktext2" class="worktext" src="images/header/worktext2.png" alt="text image">  
+      </div>    
+
+    </article>
+
+    <article class="fullheight" id="workslide">
+      <div class="fullwidth"> 
+          <a href="#workvid" class="sublime" id="workvidplayer" data-autoresize="fit" data-settings="close-button-position:right">
+            <img src="images/icons/playimage.png" id="playicon3" width="100" height="100" alt="image of a play button, indicating that the user can play a media file" />
+          </a>
+            <video id="workvid" width="1280" height="720" title="Local business and job development" style="display:none" data-uid="work" data-settings="uid:demo-lightbox-close-button-position; autoresize:fit;" preload="none">
+              <source src="video/work/work.mp4" data-quality="hd" />
+              <source src="video/work/work.mp4" />
+              <source src="video/work/work.webm" data-quality="hd" />
+              <source src="video/work/work.webm" />
+              <source src="video/work/work.ogv" />
+            </video>
+      </div> 
+    </article>
+
+    
+    <article class="fullheight" id="redev">
+      <div class="panelpic">
+          <img id= "redevtext1" class="redevtext" src="images/header/cbaslidetext1.png" alt="text image">  
+        </div>       
+       <div class="fullwidth"> 
+          <img id="fillsurvey" class="slidepic17" src="images/change/fillsurvey.jpg" alt="image of a survey collection box on a chair">  
+      </div>
+        <div class="panelpic">
+          <img id= "redevtext2" class="redevtext" src="images/header/cbaslidetext2.png" alt="text image">  
+        </div> 
+      <div class="fullwidth"> 
+          <img id="gandt" class="slidepic22" src="images/change/gandt.jpg" alt="image of demonstrators holding a banner">  
+      </div>
+        <div class="panelpic">
+          <img id= "redevtext3" class="redevtext" src="images/header/cbaslidetext3.png" alt="text image">  
+        </div> 
+      <div class="fullwidth"> 
+          <img id="uubanner2" class="slidepic21" src="images/change/uubanner2.jpg" alt="image of a man next to a colorful banner">  
+      </div>
+    </article>
+    <article class="fullheight" id="redevslide">
+      <div class="fullwidth"> 
+        <a href="#redevvid" class="sublime" id="redevvidplayer" data-autoresize="fit" data-settings="close-button-position:right">
+            <img src="images/icons/playimage.png" id="playicon4" width="100" height="100" alt="image of a play button, indicating that the user can play a media file" />
+          </a>
+            <video id="redevvid" width="1280" height="720" title="Development with out displacement" style="display:none" data-uid="redev" data-settings="uid:demo-lightbox-close-button-position; autoresize:fit;" preload="none">
+              <source src="video/cba/cba.mp4" data-quality="hd" />
+              <source src="video/cba/cba.mp4" />
+              <source src="video/cba/cba.webm" data-quality="hd" />
+              <source src="video/cba/cba.webm" />
+              <source src="video/cba/cba.ogv" />
+            </video>
+      </div>
+    </article>  
+      
+      <article class="fullheight" id="tour1">
+        <div class="map" id="map1"></div>
+        <div class="map" id="mapvid1"></div>
+      </article> 
+
+</main>
+
+
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/jquery.scrollmagic.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+  <script src="http://cdn.sublimevideo.net/js/46z32qym.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+
+
+42.379198, -71.094261
+
+      // Define the LatLng coordinates for the polygon.
+  var triangleCoords = [
+      new google.maps.LatLng(25.774252, -80.190262),
+      new google.maps.LatLng(18.466465, -66.118292),
+      new google.maps.LatLng(32.321384, -64.75737)
+  ];
+
+
+    // Define the LatLng coordinates for the polygon.
+  var triangleCoords = [
+      new google.maps.LatLng(25.774252, -80.190262),
+      new google.maps.LatLng(18.466465, -66.118292),
+      new google.maps.LatLng(32.321384, -64.75737)
+  ];
