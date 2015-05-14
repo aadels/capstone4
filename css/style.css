@@ -252,8 +252,6 @@ article:after {
   width: 50%;
   float: left;
   padding-left: 10%
-
-
 }
 .navbar .brand img{
   width: 50%;
@@ -277,7 +275,7 @@ article:after {
 }
 
 .navbar #socialmedia ul li img{
-  width: 20px;
+  width: 25px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
