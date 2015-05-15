@@ -6,6 +6,7 @@ html {
   vertical-align: baseline;
 }
 body {
+  background-image: url("../images/ltblue.png");
   font-family: 'Exo', sans-serif;
   font-size: 48px;
   position: absolute;
@@ -23,5 +24,51 @@ body {
   top: 1%;
 }
 
+ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
 
+ul li{
+  font: .5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: 200;
+  margin: 0%
+}
+
+ h6 {
+  font: 200 .5em/1em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 200;
+  margin: 0;
+  text-align: center;
+}
+.email{
+  font: 200 .5em/1em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.email li{
+  color: #fff;
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:link{
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: 400;
+  text-decoration: none;
+}
+#row1{
+  margin-top: 2%;
+  padding-top: 10%;
+  text-align: center;
+  margin: 0 auto;
+}
+.email {
+  padding-top: 2%;
+  display: inline-block;
+  text-align: center;
 }
